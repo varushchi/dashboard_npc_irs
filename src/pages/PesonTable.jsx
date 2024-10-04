@@ -2,11 +2,12 @@ import PersonRow from '../components/PersonRow';
 
 function PersonTable(props) {
 
-  const personRowElem = props.data.slice(props.showOnPage.start, props.showOnPage.end).map(elem => {
+  const personRowElem = props.data.slice(props.showPersonOnPage.start, props.showPersonOnPage.end).map(elem => {
     return(
       <PersonRow 
         id = {elem.id}
         key = {elem.id}
+        index = {elem.index}
         name = {elem.name}
         age = {elem.age}
         company = {elem.company}
@@ -16,12 +17,18 @@ function PersonTable(props) {
   })
 
   return (
-    <div className="PersonTable" id='66ffa931d5c507f96596bfa0'>
+    <div className="PersonTable">
+      <div className='table-header'>
+        <h3>Index</h3>
+        <h3>Name</h3>
+        <h3>Age</h3>
+        <h3>Company</h3>
+      </div>
       {personRowElem}
-      {props.showOnPage.start > 0 && <button onClick={props.handlePrevPage}>&#60;</button>}
-      
-      {props.showOnPage.end < props.data.length && <button onClick={props.handleNextPage}>&gt;</button>}
-      
+      <div className='page-navigation'>
+        {props.showPersonOnPage.start > 0 && <button onClick={props.handlePrevPage}>&#60;</button>}
+        {props.showPersonOnPage.end < props.data.length && <button onClick={props.handleNextPage} style={{marginLeft: props.showPersonOnPage.start > 0 ? '0' : '30px'}}>&gt;</button>}
+      </div>
     </div>
   );
 }

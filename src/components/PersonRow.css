@@ -1,5 +1,24 @@
 .PersonRow{
+  width: 100%;
   display: grid;
-  grid-template-columns: 200px 100px 100px 100px;
-  grid-template-rows: repeat(4, auto);
+
+  grid-template-columns: 10% 30% 10% 30% 10%;
+  grid-template-rows: repeat(5, auto);
+}
+
+.page-navigation{
+  margin-left: 45%;
+
+  & > button{
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.table-header{
+  width: 100%;
+  display: grid;
+
+  grid-template-columns: 10% 30% 10% 30% 10%;
+  grid-template-rows: repeat(5, auto);
 }

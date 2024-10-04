@@ -1,4 +1,5 @@
 import React from 'react'
+import './PersonInfo.css'
 
 export default function PersonInfo(props) {
   return (

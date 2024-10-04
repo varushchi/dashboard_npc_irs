@@ -1,0 +1,13 @@
+.SideBar{
+  display: flex;
+  width: 20%;
+  max-width: 200px;
+  min-width: 100px;
+  flex-direction: column;
+  height: 50%;
+  justify-content: space-between;
+
+  & > button{
+    height: 20%;
+  }
+}
