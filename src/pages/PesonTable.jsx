@@ -13,9 +13,9 @@ function PersonTable(props) {
       case 'acc':
         return 'Sort'
       case 'dec':
-        return <span>&uarr;</span>
-      case 'none':
         return <span>&darr;</span>
+      case 'none':
+        return <span>&uarr;</span>
       default:
         return 'Sort'
     }
