@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dashboard_npc_irs/static/css/main.41abb61a.css",
+    "main.js": "/dashboard_npc_irs/static/js/main.d4e9bd3d.js",
+    "index.html": "/dashboard_npc_irs/index.html",
+    "main.41abb61a.css.map": "/dashboard_npc_irs/static/css/main.41abb61a.css.map",
+    "main.d4e9bd3d.js.map": "/dashboard_npc_irs/static/js/main.d4e9bd3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41abb61a.css",
+    "static/js/main.d4e9bd3d.js"
+  ]
+}
