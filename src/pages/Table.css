@@ -2,3 +2,8 @@
   width: 80%;
   min-width: 300px;
 }
+
+.filter-div{
+  display: flex;
+  align-items: center;
+}

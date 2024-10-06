@@ -3,6 +3,8 @@ import './App.css';
 import Table from './pages/Table';
 import SideBar from './pages/SideBar';
 import Overview from './pages/Overview';
+import Tasks from './pages/Tasks';
+
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
         return <Table />
       case 'Overview':
         return <Overview />
+      case 'Tasks':
+        return <Tasks />
       default:
         return <Table />
     }

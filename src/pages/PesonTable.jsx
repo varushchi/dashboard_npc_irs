@@ -2,19 +2,19 @@ import PersonRow from '../components/PersonRow';
 
 function PersonTable(props) {
 
-  const personRowElem = props.data.slice(props.showPersonOnPage.start, props.showPersonOnPage.end).map(elem => {
+  const personRowElem = props.data.map((elem, index) => {
     return(
       <PersonRow 
         id = {elem.id}
         key = {elem.id}
-        index = {elem.index}
+        index = {index}
         name = {elem.name}
         age = {elem.age}
         company = {elem.company}
         handleClick = {props.handleClick}
       />
     )
-  })
+  }).slice(props.showPersonOnPage.start, props.showPersonOnPage.end)
 
   return (
     <div className="PersonTable">
@@ -23,6 +23,7 @@ function PersonTable(props) {
         <h3>Name</h3>
         <h3>Age</h3>
         <h3>Company</h3>
+        <h3>Amount {props.data.length}</h3>
       </div>
       {personRowElem}
       <div className='page-navigation'>
