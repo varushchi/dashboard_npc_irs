@@ -4,6 +4,21 @@
 }
 
 .filter-div{
-  display: flex;
-  align-items: center;
+  width: 100%;
+  display: grid;
+
+  grid-template-columns: 10% 20% 10% 30% 10%;
+  grid-template-rows: 53px;
 }
+
+.sort-name,
+.sort-comp{
+  width: 30%;
+}
+
+.sort-age{
+  width: 70%;
+}
+
+
+

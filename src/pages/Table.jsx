@@ -105,10 +105,11 @@ function Table() {
       <h1>Employees</h1>
       {(clickedPersonId === null) &&
       <div>
-        <div className='filter-div'> 
-          <button onClick={sortName}>Sort Name</button>
-          <button onClick={sortAge}>Sort Age</button>
-          <button onClick={sortComp}>Sort Company</button>
+        <div className='filter-div'>
+          <div></div>
+          <button onClick={sortName} className='sort-name'>Sort Name</button>
+          <button onClick={sortAge} className='sort-age'>Sort Age</button>
+          <button onClick={sortComp} className='sort-comp'>Sort Company</button>
         </div>
         <PersonTable
           data={personData}
