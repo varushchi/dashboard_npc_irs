@@ -136,9 +136,9 @@ function PersonTable(props) {
     <div className="PersonTable">
       <div className='table-header'>
         <h3>Index</h3>
-        <h3>Name <button onClick={sortName} className='sort-name'>{sortNameIcon}</button></h3>
-        <h3>Age <button onClick={sortAge} className='sort-age'>{sortAgeIcon}</button></h3>
-        <h3>Company <button onClick={sortComp} className='sort-comp'>{sortCompIcon}</button></h3>
+        <h3 className='header-flex'>Name <button onClick={sortName} className='sort-name'>{sortNameIcon}</button></h3>
+        <h3 className='header-flex'>Age <button onClick={sortAge} className='sort-age'>{sortAgeIcon}</button></h3>
+        <h3 className='header-flex'>Company <button onClick={sortComp} className='sort-comp'>{sortCompIcon}</button></h3>
         <h3>Amount {props.data.length}</h3>
       </div>
       {personRowElem}

@@ -48,7 +48,12 @@
 }
 
 .back-button{
-  width: 10%;
+  width: 8%;
   height: 50px;
 }
 
+.personal-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

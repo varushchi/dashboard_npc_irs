@@ -4,12 +4,15 @@ import './PersonInfo.css'
 export default function PersonInfo(props) {
   return (
     <div className='PersonInfo' id = {props.person.id} key = {props.person.id}>
-      <div className='personal'>
-        <h3>{props.person.name}</h3>
-        <div className='age-gender'>
-          <p>{props.person.gender === 'male' ? 'Male' : 'Female'},</p>
-          <p>{props.person.age}</p>
+      <div className='personal-flex'>
+        <div className='personal'>
+          <h3>{props.person.name}</h3>
+          <div className='age-gender'>
+            <p>{props.person.gender === 'male' ? 'Male' : 'Female'},</p>
+            <p>{props.person.age}</p>
+          </div>
         </div>
+        <button onClick={props.hanldeClick} className='back-button'>Back</button>
       </div>
 
       <div className='about-work-flex'>
@@ -30,7 +33,6 @@ export default function PersonInfo(props) {
         <h3>Kids</h3>
         {props.person.kids.map(elem => <p key = {elem.id}>{elem.name}</p>)}
       </div>}
-      <button onClick={props.hanldeClick} className='back-button'>Back</button>
     </div>
   )
 }
