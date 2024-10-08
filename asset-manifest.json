@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dashboard_npc_irs/static/css/main.fec5c493.css",
-    "main.js": "/dashboard_npc_irs/static/js/main.51053264.js",
+    "main.css": "/dashboard_npc_irs/static/css/main.dde81811.css",
+    "main.js": "/dashboard_npc_irs/static/js/main.6675b197.js",
     "index.html": "/dashboard_npc_irs/index.html",
-    "main.fec5c493.css.map": "/dashboard_npc_irs/static/css/main.fec5c493.css.map",
-    "main.51053264.js.map": "/dashboard_npc_irs/static/js/main.51053264.js.map"
+    "main.dde81811.css.map": "/dashboard_npc_irs/static/css/main.dde81811.css.map",
+    "main.6675b197.js.map": "/dashboard_npc_irs/static/js/main.6675b197.js.map"
   },
   "entrypoints": [
-    "static/css/main.fec5c493.css",
-    "static/js/main.51053264.js"
+    "static/css/main.dde81811.css",
+    "static/js/main.6675b197.js"
   ]
 }
