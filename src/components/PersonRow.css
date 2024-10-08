@@ -4,6 +4,7 @@
 
   grid-template-columns: 10% 20% 15% 20% 15%;
   grid-template-rows: auto;
+  margin-bottom: 5px;
 }
 
 .page-navigation{
