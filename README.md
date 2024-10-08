@@ -1,3 +1,5 @@
+# демо сайта пердставлено на https://varushchi.github.io/dashboard_npc_irs/
+
 Тестовое задание для Frontend-разработчика
 
 В работе требуется использовать следующие технологии: JavaScript (без TypeScript), React.
