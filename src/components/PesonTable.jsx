@@ -144,7 +144,7 @@ function PersonTable(props) {
       {personRowElem}
       <div className='page-navigation'>
         {props.showPersonOnPage.start > 0 && <button onClick={props.handlePrevPage}>&larr;</button>}
-        {props.showPersonOnPage.end < props.data.length && <button onClick={props.handleNextPage} style={{marginLeft: props.showPersonOnPage.start > 0 ? '0' : '30px'}}>&rarr;</button>}
+        {props.showPersonOnPage.end < props.data.length && <button onClick={props.handleNextPage} style={{marginLeft: props.showPersonOnPage.start > 0 ? '0' : '50px'}}>&rarr;</button>}
       </div>
     </div>
   );

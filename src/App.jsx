@@ -9,7 +9,7 @@ import Tasks from './pages/Tasks';
 
 function App() {
 
-  const [currentPageOption, setCurrentPageOption] = useState('Table')
+  const [currentPageOption, setCurrentPageOption] = useState('Overview')
 
   function switchCurrentPage(option){
     switch(option){

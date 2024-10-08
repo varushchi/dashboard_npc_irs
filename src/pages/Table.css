@@ -1,4 +1,12 @@
-.Table{
+.Table,
+.Tasks,
+.Overview{
   width: 80%;
   min-width: 300px;
+}
+
+.Overview{
+  & > p{
+    font-size: 1.5rem;
+  }
 }

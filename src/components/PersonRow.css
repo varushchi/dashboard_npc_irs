@@ -2,12 +2,12 @@
   width: 100%;
   display: grid;
 
-  grid-template-columns: 10% 20% 15% 20% 10%;
+  grid-template-columns: 10% 20% 15% 20% 15%;
   grid-template-rows: auto;
 }
 
 .page-navigation{
-  margin-left: 30%;
+  margin-left: 40%;
 
   & > button{
     height: 50px;
@@ -19,7 +19,7 @@
   width: 100%;
   display: grid;
 
-  grid-template-columns: 10% 20% 15% 20% 10%;
+  grid-template-columns: 10% 20% 15% 20% 15%;
   grid-template-rows: auto;
 }
 

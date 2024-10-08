@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import data from '../data/personData.json'
-import PersonTable from './PesonTable';
-import PersonInfo from './PersonInfo';
+import PersonTable from '../components/PesonTable';
+import PersonInfo from '../components/PersonInfo';
 import './Table.css'
 
 function Table() {

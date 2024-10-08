@@ -1,0 +1,11 @@
+.NewTask{
+  display: grid;
+  grid-template-columns: 50% 20% 20%;
+  column-gap: 2%;
+}
+
+input{
+  font-size: 1.15rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
