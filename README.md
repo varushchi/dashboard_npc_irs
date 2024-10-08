@@ -1,4 +1,4 @@
-# демо сайте пердставлено на https://varushchi.github.io/dashboard_npc_irs/
+# демо сайта пердставлено на https://varushchi.github.io/dashboard_npc_irs/
 
 Тестовое задание для Frontend-разработчика
 
